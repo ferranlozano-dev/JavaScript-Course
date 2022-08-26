@@ -11,7 +11,6 @@
 //Es lo mismo que lo de arriba
 const { factorial, suma } = require("./modulos/matematicas.js")
 
-
 const fact = factorial(4)
 console.log(fact)
 
