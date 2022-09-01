@@ -1,0 +1,12 @@
+//Archivo de configuración de reglas ESlint
+
+{
+    "rules": {
+        // Override our default settings just for this directory
+        "eqeqeq": "warn",
+        "strict": "off",
+        "quotes": ["error", "double"], //Le digo que solo quiero comillas dobles
+        "semi": ["error", "never"],
+        "no-dupe-keys": "error" //No puede haber dos atributos con el mismo nombre
+    }
+}
